@@ -19,3 +19,21 @@ function getAverage(marks) {
   // return the sum divided by the number of marks
   return Math.floor(sum / marks.length);
 }
+
+/* OTHER SOLUTIONS:
+
+Using forEach instead of a for loop: 
+
+function getAverage(marks) {
+  // a place to store the sum, initialized to zero
+  let sum = 0;
+  // iterate over the marks
+  marks.forEach(mark) =>
+  {
+    sum = sum + mark;
+  }
+
+  // return the sum divided by the number of marks
+  return Math.floor(sum / marks.length);
+}
+*/
